@@ -176,7 +176,7 @@ ul {
   font-weight: 600;
   width: fit-content;
   height: 32px;
-  transition: background 0.8s ease;
+  transition: background 0.2s ease-in;
 }
 
 .container {
@@ -518,7 +518,6 @@ header section h2 {
   }
 
   .btn:hover {
-    transform: translate(0, -1px);
     background-color: var(--first-color);
     color: var(--second-color);
   }
